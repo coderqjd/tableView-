@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  0628-tableViewLink
+//
+//  Created by 强进冬 on 2017/6/29.
+//  Copyright © 2017年 强进冬. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define QJDScreenWidth [UIScreen mainScreen].bounds.size.width
+#define QJDScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define QJDColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)*1.0];
+
+#endif /* PrefixHeader_pch */
